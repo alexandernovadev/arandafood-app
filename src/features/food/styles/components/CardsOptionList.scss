@@ -1,0 +1,23 @@
+.cardoptiolist {
+  gap: 13px;
+  position: relative;
+  top: -40px;
+  align-items: center;
+  justify-content: center;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+  display: none;
+}
+
+@media screen and (max-width: 767px) {
+  .cardoptiolist {
+    display: grid;
+    grid-template-columns: repeat(6, 106px);
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .cardoptiolist {
+    display: grid;
+    grid-template-columns: repeat(3, 106px);
+  }
+}

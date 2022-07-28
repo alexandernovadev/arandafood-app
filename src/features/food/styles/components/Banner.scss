@@ -1,0 +1,63 @@
+.banner {
+  height: 416px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  background-position-x: center;
+  background-image: url("../../../../assets/bcq.jpg ");
+  display: flex;
+  align-items: center;
+}
+
+.banner__text {
+  color: #ffffff;
+  padding-left: 261px;
+}
+.banner__text--text1 {
+  font: normal normal normal 74px/111px Poppins;
+}
+
+.banner__text--text2 {
+  font: normal normal normal 67px/80px Monster Clubhouse;
+  margin-top: -50px;
+  margin-left: 16px;
+
+}
+
+@media screen and (max-width: 1024px) {
+  .banner__text {
+    padding-left: 110px;
+  }
+}
+@media screen and (max-width: 762px) {
+  .banner__text {
+    padding-left: 121px;
+  }
+  .banner {
+    height: 294.34px;
+  }
+  .banner__text--text1 {
+    font: normal normal normal 74px/111px Poppins;
+  }
+
+  .banner__text--text2 {
+    font: normal normal normal 67px/80px Monster Clubhouse;
+  }
+}
+@media screen and (max-width: 428px) {
+  .banner {
+    height: 234.34px;
+  }
+  .banner__text {
+    padding-left: 56.1px;
+  }
+  .banner__text--text1 {
+    font: normal normal normal 51px/77px Poppins;
+  }
+
+  .banner__text--text2 {
+    font: normal normal normal 51px/61px Monster Clubhouse;
+    margin-top: -35px;
+    margin-left: 0px;
+  }
+}
