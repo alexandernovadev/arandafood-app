@@ -1,6 +1,6 @@
 #  Aranda Foods Recipe App Challege
 
-Show Demo [Go to APP](https://github.com/facebook/create-react-app).
+Show Demo [Go to APP](https://alexandernovadev.github.io/arandafood-app).
 
 ## How to Install this project ?
 
