@@ -1,0 +1,67 @@
+@import "../../../../Base.scss";
+
+.footer {
+  width: 100%;
+  background: transparent linear-gradient(180deg, $gray75 0%, $blue-bg 100%) 0%
+    0% no-repeat padding-box;
+  box-shadow: 4px 6px 23px $gray800;
+  height: 167px;
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  align-items: center;
+  justify-items: center;
+
+  h4 {
+    font: normal normal normal 56px/67px $fontFamilyTwo;
+    letter-spacing: 0px;
+    color: $gray200;
+  }
+  div {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+    img {
+      position: absolute;
+      top: -50%;
+      width: 536px;
+      height: 248px;
+    }
+  }
+}
+
+@media screen and (max-width: 1098px) {
+  .footer {
+    height: 116px;
+
+    h4 {
+      font: normal normal normal 39px/47px $fontFamilyTwo;
+    }
+
+    div {
+      img {
+        width: 379px;
+        height: 175px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 730px) {
+  .footer {
+    height: 70px;
+    h4 {
+      font: normal normal normal 23px/28px $fontFamilyTwo;
+    }
+
+    div {
+      img {
+        width: 228px;
+        height: 106px;
+      }
+    }
+  }
+}
