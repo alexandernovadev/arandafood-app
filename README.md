@@ -1,6 +1,6 @@
 #  Aranda Foods Recipe App Challege
 
-Show Demo [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) TS template.
+Show Demo [Go to APP](https://github.com/facebook/create-react-app).
 
 ## How to Install this project ?
 
