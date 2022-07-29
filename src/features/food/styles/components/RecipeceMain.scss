@@ -1,0 +1,21 @@
+@import "../../../../Base.scss";
+
+.recipes {
+  h2 {
+    margin-bottom: 11px;
+    color: $base-color;
+    font: normal normal normal 54px/65px $fontFamilyTwo;
+    letter-spacing: 0px;
+    padding-left: 71px;
+  }
+
+  .recipes__cards {
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 71px;
+    overflow-x: scroll;
+    padding-top: 63px;
+    padding-bottom: 63px;
+    gap: 25.8px;
+  }
+}
