@@ -8,14 +8,14 @@
   display: none;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1098px) {
   .cardoptiolist {
     display: grid;
     grid-template-columns: repeat(6, 106px);
   }
 }
 
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 730px) {
   .cardoptiolist {
     display: grid;
     grid-template-columns: repeat(3, 106px);

@@ -1,3 +1,5 @@
+@import "../../../../Base.scss";
+
 .banner {
   height: 416px;
   background-repeat: no-repeat;
@@ -10,26 +12,21 @@
 }
 
 .banner__text {
-  color: #ffffff;
-  padding-left: 261px;
+  color: $white-color;
+  padding-left: 18%;
 }
 .banner__text--text1 {
-  font: normal normal normal 74px/111px Poppins;
+  font: normal normal normal 74px/111px $fontFamilyOne;
 }
 
 .banner__text--text2 {
-  font: normal normal normal 67px/80px Monster Clubhouse;
+  font: normal normal normal 67px/80px $fontFamilyTwo;
   margin-top: -50px;
   margin-left: 16px;
 
 }
 
-@media screen and (max-width: 1024px) {
-  .banner__text {
-    padding-left: 110px;
-  }
-}
-@media screen and (max-width: 762px) {
+@media screen and (max-width: 1098px) {
   .banner__text {
     padding-left: 121px;
   }
@@ -37,14 +34,14 @@
     height: 294.34px;
   }
   .banner__text--text1 {
-    font: normal normal normal 74px/111px Poppins;
+    font: normal normal normal 74px/111px $fontFamilyOne;
   }
 
   .banner__text--text2 {
-    font: normal normal normal 67px/80px Monster Clubhouse;
+    font: normal normal normal 67px/80px $fontFamilyTwo;
   }
 }
-@media screen and (max-width: 428px) {
+@media screen and (max-width: 730px) {
   .banner {
     height: 234.34px;
   }
@@ -52,11 +49,11 @@
     padding-left: 56.1px;
   }
   .banner__text--text1 {
-    font: normal normal normal 51px/77px Poppins;
+    font: normal normal normal 51px/77px $fontFamilyOne;
   }
 
   .banner__text--text2 {
-    font: normal normal normal 51px/61px Monster Clubhouse;
+    font: normal normal normal 51px/61px $fontFamilyTwo;
     margin-top: -35px;
     margin-left: 0px;
   }

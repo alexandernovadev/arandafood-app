@@ -22,12 +22,10 @@ export const options = [
     icon: fastfood,
     desc: "Rápida",
   },
-
   {
     icon: kids,
     desc: "Menú Niños",
   },
-
   {
     icon: soup,
     desc: "Soup",

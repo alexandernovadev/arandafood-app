@@ -1,59 +1,64 @@
-:root {
-  --unnamed-color-d84a4a: #d84a4a;
-  --unnamed-color-425966: #425966;
-}
+@import "../../../../Base.scss";
 
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 69px;
-  background: #ffffff 0% 0% no-repeat padding-box;
-  box-shadow: 0px 3px 6px #8395a7;
+  background: $white-color 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px $gray100;
 }
 .header__title {
-  top: 14px;
-  left: 70px;
   width: 180px;
   height: 54px;
   padding-left: 70px;
+
+  span {
+    text-transform: capitalize;
+  }
+
+  span:nth-child(1) {
+    color: $gray200;
+    text-align: left;
+    font: normal normal normal 40px/48px $fontFamilyTwo;
+    letter-spacing: 1.15px;
+  }
+  span:nth-child(2) {
+    color: $base-color;
+    text-align: left;
+    font: normal normal normal 30px/46px $fontFamilyOne;
+    letter-spacing: 0.86px;
+    color: $base-color;
+  }
 }
 
-.header__title > span {
-  text-transform: capitalize;
-}
-.header__title > span:nth-child(1) {
-  color: var(--unnamed-color-425966, #425966);
-  text-align: left;
-  font: normal normal normal 40px/54px Monster Clubhouse;
-  letter-spacing: 1.15px;
-  color: #425966;
-}
-.header__title > span:nth-child(2) {
-  color: var(--unnamed-color-d84a4a);
-  text-align: left;
-  font: normal normal normal 30px/46px Poppins;
-  letter-spacing: 0.86px;
-  color: #d84a4a;
-}
 .header__menu {
   // display: block;
+  padding-right: 65px;
+  
+  ul {
+    display: flex;
+    list-style: none;
+    gap: 45px;
+
+    li {
+      cursor: pointer;
+      font: normal normal medium 13px/20px $fontFamilyOne;
+      letter-spacing: 0px;
+      color: $gray200;
+      text-align: left;
+    }
+
+    li.selected {
+      color: $base-color;
+    }
+
+    li:hover {
+      color: $base-color;
+    }
+  }
 }
-.header__menu ul {
-  display: flex;
-  list-style: none;
-  font: normal normal normal 13px/20px Poppins;
-}
-.header__menu ul li {
-  padding-right: 45px;
-  cursor: pointer;
-}
-.header__menu ul li:hover {
-  color: var(--unnamed-color-d84a4a);
-}
-.header__menu ul li.selected {
-  color: var(--unnamed-color-d84a4a);
-}
+
 .header__iconhome {
   height: 25px;
   width: 25px;
