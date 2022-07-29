@@ -2,6 +2,7 @@
 
 .recipes {
   h2 {
+    margin-top: 28px;
     margin-bottom: 11px;
     color: $base-color;
     font: normal normal normal 54px/65px $fontFamilyTwo;
@@ -11,11 +12,33 @@
 
   .recipes__cards {
     display: flex;
+    height: 480px;
     justify-content: flex-start;
     padding-left: 71px;
     overflow-x: scroll;
     padding-top: 63px;
     padding-bottom: 63px;
     gap: 25.8px;
+  }
+}
+
+@media screen and (max-width: 1098px) {
+  .recipes {
+    h2 {
+      margin-top: 0;
+    }
+  }
+}
+
+@media screen and (max-width: 730px) {
+  .recipes__cards {
+    padding-right: 71px;
+  }
+  .recipes {
+    h2 {
+      margin-top: 0;
+      padding-left: 0;
+      text-align: center;
+    }
   }
 }

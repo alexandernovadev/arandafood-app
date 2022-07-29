@@ -1,3 +1,4 @@
+@import "./Base.scss";
 *{
   margin: 0;
   padding: 0;
@@ -6,4 +7,22 @@
 body{
   width: 100vw;
   overflow-x: hidden !important;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px $gray200; 
+  border-radius: 16px;
+}
+ 
+::-webkit-scrollbar-thumb {
+  background: $base-color; 
+  border-radius: 16px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: darken($color: $base-color, $amount: 0.1); 
 }
